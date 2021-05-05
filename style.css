@@ -30,8 +30,8 @@ body {
   width: 100%;
   margin: auto;
   min-height: 100vh;
-  background: #ffa4e4;
-  background: #ea907a;
+  background: #7158e2;
+  background: #3c6382;
   -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
 }
@@ -159,7 +159,7 @@ nav header svg {
 }
 
 .newtask__btn button.AddTaskBtn {
-  background-color: #1fab89;
+  background-color: #3c6382;
 }
 
 .newtask__btn button.EditTaskBtn {
