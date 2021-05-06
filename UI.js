@@ -75,6 +75,9 @@ UI.prototype.editTask = function(e){
     document.querySelector('#newtaskID').value = data.title;
     document.querySelector('#updateTaskId').value = data.id;
 
+    document.querySelector('.AddTaskBtn').style.display = 'none';
+    document.querySelector('.EditTaskBtn').style.display = 'inline';
+    document.querySelector('.CancelTaskBtn').style.display = 'inline';
 
 }
 
