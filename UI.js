@@ -67,6 +67,13 @@ UI.prototype.showAllTasks = function(){
 
 }
 
+UI.prototype.editTask = function(e){
+    const task = e.target.parentElement.parentElement;
+    const id = task.dataset-createdat;
+    const data = ls.findTask(id);
+
+}
+
 
 
 
