@@ -72,6 +72,10 @@ UI.prototype.editTask = function(e){
     const id = task.dataset-createdat;
     const data = ls.findTask(id);
 
+    document.querySelector('#newtaskID').value = data.title;
+    document.querySelector('#updateTaskId').value = data.id;
+
+
 }
 
 
