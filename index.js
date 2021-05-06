@@ -30,3 +30,10 @@ document.querySelector('.task-list').addEventListener('click', e => {
         ui.completedTask(e);
     }
 });
+
+document.querySelector('.EditTaskBtn').addEventListener('click', e =>{
+   ui.updateTask(e); 
+});
+document.querySelector('.CancelTaskBtn').addEventListener('click', e =>{
+    ui.cancelTask(e);
+});
