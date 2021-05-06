@@ -69,9 +69,9 @@ UI.prototype.showAllTasks = function(){
 
 UI.prototype.editTask = function(e){
     const task = e.target.parentElement.parentElement;
-    const id = task.dataset-createdat;
+    const id = task.dataset.createdat;
     const data = ls.findTask(id);
-
+    console.log(data)
     document.querySelector('#newtaskID').value = data.title;
     document.querySelector('#updateTaskId').value = data.id;
 
