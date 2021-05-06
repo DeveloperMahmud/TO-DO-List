@@ -13,7 +13,7 @@
           <svg class="icon icon-survey">
             <use xlink:href="/icons.svg#icon-survey"></use>
           </svg>
-          <p>Task List</p>
+          <p>To-Do list</p>
         </header>
       </nav>
       <div class="container">
@@ -22,8 +22,15 @@
             <input
               type="text"
               id="newtaskID"
-              placeholder="Add new task here..."
+              placeholder="Add your new task here..."
             />
+            
+            <input 
+            type="hidden" 
+            name="updateTask" 
+            id="updateTaskId"
+            />
+
           </div>
           <div class="newtask__btn">
             <button class="AddTaskBtn">Add Task</button>
